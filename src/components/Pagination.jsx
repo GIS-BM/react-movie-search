@@ -27,7 +27,7 @@ export default function Pagination({ totalPage, limit, setPage, page }) {
     setTotalPageArr(pageGroup);
     setCurrentPageArr(pageGroup[0]);
   }, [totalPage]);
-  // api 화
+  // api 화g
   // 토탈 페이지 상태가 바뀔때마다 새로 실행되어야 useEffect 사용
   // totalPage는 외부 시스템이고 totalPage가 바뀔때마다 새로 만든다.
 
