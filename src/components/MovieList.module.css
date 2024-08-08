@@ -1,0 +1,11 @@
+.movie_list {
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  /* repeat() 반복함수 */
+  /* 1fr(비율) : 동일한 가로비율로 2칸 지정 */
+  gap: 20px 15px;
+  /* grid는 표 구조이므로 flex와 다르게 gap만큼 줄이지 않아도 된다. */
+  margin-top: 10px;
+}
